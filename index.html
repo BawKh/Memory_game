@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemoryGame</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./iamges/pageicon.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="control-buttons">
+        <div class="scores">
+            <div class="users">
+                <div class="Header">
+                    <div class="rank">Rank</div>
+                    <div class="name">Name</div>
+                    <div class="score">Score</div>
+                </div>
+            </div>
+        </div>
+        <span>Start Game</span>
+    </div>
+    <div class="info-container">
+        <div class="name">
+            Hello : <span></span>
+        </div>
+        <div class="tries">
+            Wrong Tries : <span>0</span>
+        </div>
+    </div>
+    <div class="memory-blocks-container">
+        
+    </div>
+    <button class="help-me">Give Me Help</button>
+    <div class="count-down"></div>
+    <div class="reload">Start Again</div>
+    <audio id="success" src="audio/success.mp3" preload="auto"></audio>
+    <audio id="fail" src="audio/fail.mp3" preload="auto"></audio>
+    <audio id="win" src="audio/win.mp3" preload="auto"></audio>
+    <script src="main.js"></script>
+</body>
+</html>
